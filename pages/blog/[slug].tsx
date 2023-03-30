@@ -9,6 +9,7 @@ export default function BlogPost({
     <>
       <h1>{slug}</h1>
       <p dangerouslySetInnerHTML={{ __html: html }} />
+      <p>Time is: {Date.now()}</p>
     </>
   );
 }
@@ -40,5 +41,6 @@ export async function getStaticProps(context: {
       slug,
       html,
     },
+    revalidate: 60,
   };
 }
