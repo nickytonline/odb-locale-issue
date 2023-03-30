@@ -13,10 +13,10 @@ export default function BlogPost({
   );
 }
 
-export async function getStaticPaths() {
+export function getStaticPaths() {
   return {
     paths: [],
-    fallback: true,
+    fallback: "blocking",
   };
 }
 
