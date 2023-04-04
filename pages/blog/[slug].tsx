@@ -7,7 +7,7 @@ export default function BlogPost({
 }) {
   return (
     <>
-      <h1>{slug}</h1>
+      <h1>Page slug is: {slug}</h1>
       <p dangerouslySetInnerHTML={{ __html: html }} />
       <p>Time is: {Date.now()}</p>
     </>
