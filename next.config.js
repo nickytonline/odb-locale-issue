@@ -12,7 +12,7 @@ const nextConfig = {
     defaultLocale: "en",
     domains: [
       {
-        domain: "en.iamdev.fyi",
+        domain: "iamdev.fyi",
         defaultLocale: "en",
         locales: [],
       },
