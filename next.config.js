@@ -12,7 +12,12 @@ const nextConfig = {
     defaultLocale: "en",
     domains: [
       {
-        domain: "nextjs-locale-odb-issue.netlify.app",
+        domain: "en.iamdev.fyi",
+        defaultLocale: "en",
+        locales: [],
+      },
+      {
+        domain: "fr.iamdev.fyi",
         defaultLocale: "fr",
         locales: [],
       },
